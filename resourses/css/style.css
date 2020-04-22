@@ -78,7 +78,7 @@ header .mobile {
     width: 100%;
     height: 47.5rem;
     box-sizing: border-box;
-    padding: 3rem 3rem;
+    padding: 4rem 3rem;
     background-color: #d9d9d9;
     display: flex;
     justify-content: left;
@@ -165,7 +165,7 @@ header .mobile {
     #banner {
         flex-direction: column;
         padding: 0;
-        
+        height: 55rem;
     }
 
     #banner section, #banner aside {
@@ -176,7 +176,7 @@ header .mobile {
 
     #banner aside {
         box-sizing: border-box;
-        padding: 2rem 1rem;
+        padding: 2rem 1rem 4rem;
         text-align: center;
     }
     
@@ -197,7 +197,7 @@ header .mobile {
     width: 100%;
     max-height: 57rem;
     box-sizing: border-box;
-    padding: 3rem;
+    padding: 4rem 3rem;
     color: #555555;
     padding-right: 0;
 }
@@ -224,7 +224,7 @@ header .mobile {
     padding: 1rem;
 }
 
-#blog .third-post {
+#blog .last-post {
     border-bottom: none;
 }
 
@@ -255,13 +255,13 @@ header .mobile {
 }
 
 blockquote p {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     margin-bottom: 1.5rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
 }
 
 #blog cite {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #484848;
     font-family: Avenir, Arial, Helvetica, sans-serif;
 }
@@ -274,6 +274,7 @@ blockquote p {
 .thumb-post p {
     font-size: 1.25rem;
     padding: 1rem 0;
+    line-height: 1.8rem;
 }
 
 .thumb-post a {
@@ -289,6 +290,7 @@ blockquote p {
 @media only screen and (max-width: 840px) {
     #blog {
         padding: 0;
+        max-height: 110rem;
     }
 
     #blog .desktop {
@@ -297,13 +299,14 @@ blockquote p {
 
     #blog .mobile {
         display: block;
+        padding: 2.5rem 0;
     }
 
     #blog .thumb-post {
         border: none;
         flex-direction: column;
         align-items: center;
-        padding: 2rem;
+        padding: 1.5rem;
     }
     .thumb-post div {
         box-sizing: border-box;
@@ -315,5 +318,90 @@ blockquote p {
     .thumb-post img {
         width: 100%;
         height: auto;
+    }
+}
+
+/* Course Section */
+
+#courses .mobile {
+    display: none;
+}
+
+#courses {
+    background-color: #d9d9d9;
+    padding: 4rem 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #484848;
+}
+
+#courses h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+}
+
+#courses .desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#courses .course {
+    width: 31%;
+    background-color: white;
+    margin-top: 4rem;
+    font-size: 1.25rem;
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+}
+
+.course div {
+    box-sizing: border-box;
+    padding: 2rem 2rem 3rem;
+}
+
+.course h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.course .course-type {
+    text-transform: uppercase;
+    padding: 1rem 0;
+    color: #34b7ef;
+}
+
+.course p {
+    line-height: 1.8rem;
+}
+
+@media only screen and (max-width: 840px) {
+    #courses {
+        padding: 4rem 2rem 3rem;
+        background-color: white;
+        border: 1px solid #d9d9d9;
+    }
+
+    #courses .desktop {
+        display: none;
+    }
+
+    #courses .mobile {
+        display: block;
+        font-size: 2rem;
+        font-weight: bold;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    #courses .mobile div {
+        background-color: #d9d9d9;
+        padding: 2rem;
+        margin-bottom: 1rem;
     }
 }
