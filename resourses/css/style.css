@@ -1,6 +1,6 @@
 html {
     font-size: 16px;
-    font-family: Avenir, Arial, Helvetica, sans-serif;
+    font-family: "Avenir Book", Arial, Helvetica, sans-serif;
 }
 
 /* Header section */
@@ -83,10 +83,10 @@ header .mobile {
     display: flex;
     justify-content: left;
     align-items: center;
-    
+    font-family: Avenir, Arial, Helvetica, sans-serif;
 }
 
-section {
+#banner section {
     width: 60%;
     height: 100%;
     overflow: hidden;
@@ -104,7 +104,7 @@ section {
 }
 
 
-aside {
+#banner aside {
     width: 30%;
     color: #484848;
 }
@@ -145,6 +145,10 @@ aside {
     html {
         font-size: 12px;
     }
+    
+    #banner {
+        height: 42rem;
+    }
 }
 
 @media only screen and (max-width: 930px) {
@@ -172,7 +176,7 @@ aside {
 
     #banner aside {
         box-sizing: border-box;
-        padding: 3.2rem 1.6rem;
+        padding: 2rem 1rem;
         text-align: center;
     }
     
@@ -184,3 +188,95 @@ aside {
 }
 
 /* Blog Section */
+
+
+#blog {
+    width: 100%;
+    max-height: 57rem;
+    box-sizing: border-box;
+    padding: 3rem;
+    display: flex;
+    color: #555555;
+    padding-right: 0;
+}
+
+#blog section {
+    width: 60%;
+    margin-right: 1.5rem;
+}
+
+#blog section img {
+    width: 100%;
+    height: auto;
+}
+
+#blog .thumb-post {
+    display: flex;
+    border: 1px solid #d9d9d9;
+    border-right: none;
+    border-top: none;
+    padding: 1rem;
+}
+
+#blog .third-post {
+    border-bottom: none;
+}
+
+#blog aside {
+    width: 40%;
+}
+
+.thumb-post img {
+    width: 35%;
+    height: auto;
+}
+
+.thumb-post div {
+    width: 65%;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#blog h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    color: #484848;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+}
+
+blockquote p {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6rem;
+}
+
+#blog cite {
+    font-size: 1.2rem;
+    color: #484848;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+}
+
+.thumb-post h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.thumb-post p {
+    font-size: 1.25rem;
+    padding: 1rem 0;
+}
+
+.thumb-post a {
+    text-decoration: none;
+    color: #34b7ef;
+    font-size: 1.25rem;
+}
+
+.active {
+    background-color: #d9d9d9;
+}
+
