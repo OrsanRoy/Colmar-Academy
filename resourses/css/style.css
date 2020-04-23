@@ -202,6 +202,7 @@ header .mobile {
 #blog {
     width: 100%;
     box-sizing: border-box;
+    max-height: auto;
     padding: 4rem 3rem;
     color: #555555;
     padding-right: 0;
@@ -431,9 +432,12 @@ blockquote p {
 }
 
 #thesis {
+    width: 100%;
+    max-height: auto;
     color: #484848;
     background-color: #f3f5f5;
     padding: 4rem 0 3rem 3rem;
+    
 }
 
 #thesis h2 {
@@ -566,7 +570,7 @@ footer a:hover {
     color: rgb(27, 27, 27);
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 930px) {
     footer .right {
         display: none;
     }
