@@ -292,6 +292,16 @@ blockquote p {
     background-color: #d9d9d9;
 }
 
+@media only screen and (max-width: 1024px) {
+    #blog section {
+        width: 55%;
+    }
+
+    #blog aside {
+        width: 45%;
+    }
+}
+
 @media only screen and (max-width: 840px) {
     #blog {
         padding: 0;
@@ -495,6 +505,16 @@ blockquote p {
     font-size: 1.25rem;
     line-height: 1.8rem;
     padding-top: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    #thesis section {
+        width: 55%;
+    }
+
+    #thesis aside {
+        width: 45%;
+    }
 }
 
 @media only screen and (max-width: 840px) {
