@@ -291,15 +291,15 @@ blockquote p {
     background-color: #d9d9d9;
 }
 
-/* @media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1080px) and (orientation: landscape) { 
     #blog section {
-        width: 55%;
+        width: 50%;
     }
 
     #blog aside {
-        width: 45%;
+        width: 50%;
     }
-}*/ 
+ }
 
 @media only screen and (max-width: 840px) {
     #blog {
@@ -505,16 +505,17 @@ blockquote p {
     line-height: 1.8rem;
     padding-top: 1rem;
 }
-/*
-@media only screen and (max-width: 1024px), (orientation: landscape) {
+
+
+@media only screen and (min-width: 1080px) and (orientation: landscape) { 
     #thesis section {
-        width: 55%;
+        width: 50%;
     }
 
     #thesis aside {
-        width: 45%;
+        width: 50%;
     }
-}*/
+ }
 
 @media only screen and (max-width: 840px) {
     #thesis .desktop {
