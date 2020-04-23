@@ -199,7 +199,6 @@ header .mobile {
 
 #blog {
     width: 100%;
-    max-height: 60rem;
     box-sizing: border-box;
     padding: 4rem 3rem;
     color: #555555;
@@ -292,7 +291,7 @@ blockquote p {
     background-color: #d9d9d9;
 }
 
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
     #blog section {
         width: 55%;
     }
@@ -300,12 +299,11 @@ blockquote p {
     #blog aside {
         width: 45%;
     }
-}
+}*/ 
 
 @media only screen and (max-width: 840px) {
     #blog {
         padding: 0;
-        max-height: 110rem;
     }
 
     #blog .desktop {
@@ -323,6 +321,7 @@ blockquote p {
         align-items: center;
         padding: 1.5rem;
     }
+
     .thumb-post div {
         box-sizing: border-box;
         width: 100%;
@@ -506,8 +505,8 @@ blockquote p {
     line-height: 1.8rem;
     padding-top: 1rem;
 }
-
-@media only screen and (max-width: 1024px) {
+/*
+@media only screen and (max-width: 1024px), (orientation: landscape) {
     #thesis section {
         width: 55%;
     }
@@ -515,7 +514,7 @@ blockquote p {
     #thesis aside {
         width: 45%;
     }
-}
+}*/
 
 @media only screen and (max-width: 840px) {
     #thesis .desktop {
