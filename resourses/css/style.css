@@ -146,7 +146,7 @@ header .mobile {
 
 @media only screen and (max-width: 1260px) {
     html {
-        font-size: 12px;
+        font-size: 14px;
     }
     
     #banner {
@@ -154,13 +154,9 @@ header .mobile {
     }
 }
 
-@media only screen and (max-width: 930px) {
-    html {
-        font-size: 10px;
-    }
-}
 
-@media only screen and (max-width: 840px) {
+
+@media only screen and (max-width: 930px) {
     html {
         font-size: 16px;
     }
@@ -290,18 +286,18 @@ blockquote p {
 .active {
     background-color: #d9d9d9;
 }
-
+/*
 @media only screen and (min-width: 1080px) and (orientation: landscape) { 
     #blog section {
-        width: 50%;
+        width: 55%;
     }
 
     #blog aside {
-        width: 50%;
+        width: 45%;
     }
- }
+ }*/
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 930px) {
     #blog {
         padding: 0;
     }
@@ -394,7 +390,7 @@ blockquote p {
     line-height: 1.8rem;
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 930px) {
     #courses {
         padding: 4rem 2rem 3rem;
         background-color: white;
@@ -506,18 +502,18 @@ blockquote p {
     padding-top: 1rem;
 }
 
-
+/*
 @media only screen and (min-width: 1080px) and (orientation: landscape) { 
     #thesis section {
-        width: 50%;
+        width: 55%;
     }
 
     #thesis aside {
-        width: 50%;
+        width: 45%;
     }
- }
+ }*/
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 930px) {
     #thesis .desktop {
         display: none;
     }
